@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage("checkout"){
             steps{
-                sh 'git clone git@github.com:dhanakopparthi/dhana.git'
+                sh 'git clone git@github.com:dhanakopparthi/new.git'
             }
         }
     stage("build"){
